@@ -1,0 +1,27 @@
+{{ define "toolbar" }}
+<v-app-bar 
+    fixed
+    app
+    dark 
+    color="grey darken-3"
+>
+    <v-app-bar-nav-icon aria-label="Home" href="/"></v-app-bar-nav-icon>
+    <v-toolbar-title>GoVue Intro</v-toolbar-title>
+    <v-spacer></v-spacer>
+
+    <v-toolbar-items >
+        <v-menu >
+            <template v-slot:activator="{ on }">
+                <v-btn text v-on="on">ToDos
+                    <v-icon dark>arrow_drop_down</v-icon>
+                </v-btn>
+            </template>
+            <v-list>
+                <v-list-item href="/todo/todos" >
+                    <v-list-item-title >My Todos</v-list-item-title>
+                </v-list-item>
+            </v-list>
+        </v-menu>
+    </v-toolbar-items>
+</v-app-bar>
+{{ end }}

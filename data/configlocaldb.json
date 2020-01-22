@@ -1,0 +1,8 @@
+{
+    "Host": "localhost",
+    "Port": "5432",
+    "User": "govueintro",
+    "Pass": "govueintro",
+    "Name": "govueintro",
+    "SSLMode": "disable"
+}

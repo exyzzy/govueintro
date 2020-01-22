@@ -1,0 +1,9 @@
+{
+    "Port": "8000",
+    "ReadTimeout": 10,
+    "WriteTimeout": 600,
+    "IdleTimeout": 120,
+    "Static": "public",
+    "App": "GoVueIntro",
+    "SiteName": "GoVue Introduction"
+}
